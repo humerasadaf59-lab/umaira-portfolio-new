@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Umaira Sadaf — Full-Stack Web Developer, AI-focused software engineer and Computer Science student building modern web and AI applications.">
+  <meta name="theme-color" content="#0b0d12">
+  <meta property="og:title" content="Umaira Sadaf | Full-Stack Web Developer">
+  <meta property="og:description" content="Full-stack web development, AI applications, Django, Node.js, React and practical software projects.">
+  <title>Umaira Sadaf | Full-Stack Web Developer & AI-Focused Software Engineer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-progress" id="topProgress"></div>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="logo" href="#home">Umaira <span>Sadaf</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">FULL-STACK • AI • SOFTWARE ENGINEERING</p>
+          <h1>Umaira <span>Sadaf</span></h1>
+          <h2><span id="typingText">Full-Stack Web Developer</span><span class="cursor">|</span></h2>
+          <p class="hero-description">I build polished, practical web products and AI-enabled applications—from responsive frontends and REST APIs to Django ecommerce systems, intelligent dashboards and hackathon prototypes.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">Explore My Work</a>
+            <a class="btn secondary" href="#contact">Let's Work Together</a>
+          </div>
+          <div class="quick-links">
+            <a href="mailto:humerasadaf59@gmail.com">Professional Email</a>
+            <a href="tel:+923176480080">03176480080</a>
+            <a href="https://github.com/humerasadaf59-lab" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/umaira-sadaf-163aaa2a9" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+        <div class="hero-card reveal">
+          <div class="availability"><span></span> Open to opportunities</div>
+          <div class="profile-orbit">AI</div>
+          <h3>Engineering with a product mindset.</h3>
+          <p>Full-stack development • AI applications • automation • responsive product UI</p>
+          <div class="mini-stats" id="heroStats">
+            <div><strong>6th</strong><span>Semester</span></div>
+            <div><strong>3.84</strong><span>CGPA / 4.00</span></div>
+            <div><strong id="projectCount">12+</strong><span>Projects</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stats-section">
+      <div class="container stats-grid" id="statsGrid">
+        <div class="stat-card reveal"><strong id="statProjects">12+</strong><span>Projects built</span></div>
+        <div class="stat-card reveal"><strong id="statLive">6+</strong><span>Live demos</span></div>
+        <div class="stat-card reveal"><strong id="statInternships">5</strong><span>Experience tracks</span></div>
+        <div class="stat-card reveal"><strong>3.84</strong><span>CGPA / 4.00</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">Profile</p><h2>About <span>Me</span></h2></div>
+        <div class="two-column">
+          <div class="panel reveal">
+            <p class="kicker">Software engineer in progress</p>
+            <h3>Building useful software with modern engineering tools.</h3>
+            <p id="objectiveText">Loading profile...</p>
+            <p class="availability-copy" id="availabilityText"></p>
+          </div>
+          <div class="panel reveal">
+            <p class="kicker">Education</p>
+            <h3>BS Computer Science</h3>
+            <p>6th Semester · Government Graduate College, Vehari</p>
+            <div class="education-metrics"><span><strong>3.84</strong><small>CGPA</small></span><span><strong>6th</strong><small>Semester</small></span></div>
+            <div class="stack-strip"><span>React</span><span>Node.js</span><span>Python</span><span>Django</span><span>AI</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="experience">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">Career & learning</p><h2>Experience <span>Timeline</span></h2></div>
+        <div id="experienceList" class="timeline"></div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">Engineering toolkit</p><h2>Core <span>Skills</span></h2></div>
+        <div class="skill-list" id="skillsList"></div>
+        <div class="tech-panel reveal"><div><span class="kicker">Focus</span><h3>From idea → interface → API → deployment</h3></div><p>Responsive UI, REST APIs, databases, AI integrations, Git workflows and cloud deployment are part of the current full-stack learning and project workflow.</p></div>
+      </div>
+    </section>
+
+    <section class="section alt" id="projects">
+      <div class="container">
+        <div class="section-heading project-heading"><div><p class="eyebrow">Selected & recent work</p><h2>Projects that <span>ship</span></h2></div><p class="section-note">Live builds, internship work, AI prototypes and programming projects.</p></div>
+        <div class="project-toolbar"><div class="filters" id="filters"></div><label class="search-box"><span>⌕</span><input id="projectSearch" type="search" placeholder="Search projects..." aria-label="Search projects"></label></div>
+        <div class="cards project-grid" id="projectsGrid"></div>
+        <div class="add-project-note reveal"><div><span class="kicker">Easy to maintain</span><h3>Add your next project without touching the layout.</h3><p>Open <code>data/projects.json</code>, copy an existing project object, update its title, description, links, tags and organization, then redeploy. The portfolio automatically creates the new card and filter.</p></div><a class="btn secondary" href="https://github.com/humerasadaf59-lab" target="_blank" rel="noopener noreferrer">View GitHub ↗</a></div>
+      </div>
+    </section>
+
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">Credentials</p><h2>Certifications & <span>Learning</span></h2></div>
+        <div class="cert-grid" id="certificationsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section alt" id="contact">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">Start a conversation</p><h2>Let's build <span>something useful.</span></h2></div>
+        <div class="two-column">
+          <div class="panel reveal contact-details">
+            <p class="kicker">Direct contact</p>
+            <h3>Available for full-stack & AI-focused work.</h3>
+            <p><strong>Professional email:</strong><br><a href="mailto:humerasadaf59@gmail.com">humerasadaf59@gmail.com</a></p>
+            <p><strong>Portfolio email:</strong><br><a href="mailto:sadaffarid069@gmail.com">sadaffarid069@gmail.com</a></p>
+            <p><strong>Phone:</strong><br><a href="tel:+923176480080">03176480080</a></p>
+            <div class="social-row"><a href="https://github.com/humerasadaf59-lab" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/umaira-sadaf-163aaa2a9" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://humerasadaf59-lab.github.io" target="_blank" rel="noopener noreferrer">Legacy Portfolio ↗</a></div>
+          </div>
+          <form class="panel contact-form reveal" id="contactForm">
+            <p class="kicker">Project inquiry</p><h3>Send a message</h3>
+            <label for="name">Name</label><input id="name" name="name" autocomplete="name" required>
+            <label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required>
+            <label for="message">Message</label><textarea id="message" name="message" rows="5" required placeholder="Tell me what you want to build..."></textarea>
+            <button class="btn primary" type="submit">Send Message</button>
+            <p id="formStatus" class="form-status" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-inner"><div><strong>Umaira Sadaf</strong><p>Full-Stack Web Developer • AI-Focused Software Engineer</p></div><div><a href="#home">Back to top ↑</a></div></div><p class="copyright">© <span id="year"></span> Umaira Sadaf. Built with HTML, CSS, JavaScript and Node.js.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>

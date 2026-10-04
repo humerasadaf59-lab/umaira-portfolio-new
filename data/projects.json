@@ -1,0 +1,200 @@
+[
+  {
+    "title": "ArchCoach",
+    "category": "AI / Hackathon",
+    "description": "AI-powered mock system-design interviewer with problem selection, interview levels, voice interaction, an interactive architecture whiteboard and structured feedback for system-design practice.",
+    "demo": "https://archcoach-hack.vercel.app",
+    "label": "Live Demo",
+    "organization": "Hackathon Project",
+    "type": "AI / Full Stack",
+    "year": "2026",
+    "featured": true,
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Claude API",
+      "Excalidraw",
+      "Web Speech API"
+    ]
+  },
+  {
+    "title": "RingGuard AI",
+    "category": "AI / Full Stack",
+    "description": "Smart-home security command center that turns camera-style events into AI-filtered alerts, threat levels and daily security insights to reduce alert fatigue.",
+    "demo": "https://ringguard-ai.vercel.app",
+    "label": "Live Demo",
+    "organization": "Hackathon Project",
+    "type": "AI Security Dashboard",
+    "year": "2026",
+    "featured": true,
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "AI Vision",
+      "Vercel"
+    ]
+  },
+  {
+    "title": "BijliGuard \u2014 Vehari",
+    "category": "AI / Civic Tech",
+    "description": "Community-powered load-shedding intelligence for Vehari that combines outage reports with a lightweight prediction engine, outage probability and recommended study windows.",
+    "demo": "https://bijliguard-vehari-hvq9.vercel.app",
+    "label": "Live Demo",
+    "organization": "WarriorHacks 2.0",
+    "type": "Civic Technology",
+    "year": "2026",
+    "featured": true,
+    "tags": [
+      "Prediction",
+      "Community Reports",
+      "Vehari",
+      "Dashboard",
+      "Web App"
+    ]
+  },
+  {
+    "title": "BazaarPK Django Ecommerce",
+    "category": "Full Stack / Ecommerce",
+    "description": "Pakistan-focused Django ecommerce project designed around a practical online shopping experience, product discovery, cart and backend-driven store workflows.",
+    "demo": "https://bazaarpk-django-ecommerce.vercel.app",
+    "label": "Live Demo",
+    "organization": "Full-Stack Project",
+    "type": "Django Ecommerce",
+    "year": "2026",
+    "featured": true,
+    "tags": [
+      "Django",
+      "Python",
+      "Ecommerce",
+      "PostgreSQL",
+      "Vercel"
+    ]
+  },
+  {
+    "title": "Real-Time Collaboration App",
+    "category": "Full Stack",
+    "description": "Live collaboration web application with real-time communication, screen sharing, file sharing, shared canvas and collaborative coding workflows.",
+    "demo": "https://realtime-collaboration-app.vercel.app",
+    "label": "Live Demo",
+    "organization": "CodeAlpha Internship",
+    "type": "Full Stack",
+    "year": "2026",
+    "featured": true,
+    "tags": [
+      "Real-Time",
+      "Collaboration",
+      "WebRTC",
+      "Canvas",
+      "Code Editor"
+    ]
+  },
+  {
+    "title": "Pulse Social Platform",
+    "category": "Full Stack",
+    "description": "Modern social-platform project created during full-stack development practice, focused on interactive feeds, user-oriented flows and a polished responsive experience.",
+    "demo": "https://pulse-social-platform-xi.vercel.app",
+    "label": "Live Demo",
+    "organization": "CodeAlpha Internship",
+    "type": "Full Stack",
+    "year": "2026",
+    "featured": true,
+    "tags": [
+      "Social Platform",
+      "JavaScript",
+      "Responsive UI",
+      "Full Stack"
+    ]
+  },
+  {
+    "title": "Research Scout Agent",
+    "category": "AI / Automation",
+    "description": "AI research workflow that discovers sources, analyzes findings, drafts a concise sourced brief and saves the resulting research document for later use.",
+    "github": "https://github.com/humerasadaf59-lab",
+    "organization": "FlyRank AI \u2014 General AI Fluency",
+    "type": "AI Agent",
+    "year": "2026",
+    "tags": [
+      "AI Agent",
+      "Web Research",
+      "Citations",
+      "Automation"
+    ]
+  },
+  {
+    "title": "Urban Heat Island Analysis",
+    "category": "AI / Data",
+    "description": "Urban heat analysis project using temperature data to identify heat-vulnerable neighborhoods and recommend interventions such as tree planting and cooling centers.",
+    "github": "https://github.com/humerasadaf59-lab/urban-heat-mapper",
+    "organization": "HACKTHONYPERU \u2014 Tecnolog\u00eda e Innovaci\u00f3n",
+    "type": "Data / AI",
+    "year": "2026",
+    "tags": [
+      "Python",
+      "Streamlit",
+      "API",
+      "Data Analysis"
+    ]
+  },
+  {
+    "title": "Automated Semester CGPA Planner",
+    "category": "C++",
+    "description": "C++ application for semester-wise CGPA planning with multiple courses, grade scales and credit-hour weighting.",
+    "github": "https://github.com/humerasadaf59-lab/InternGrow_CGPA_Planner",
+    "organization": "InternGrow.official",
+    "type": "Programming",
+    "year": "2026",
+    "tags": [
+      "C++",
+      "OOP",
+      "Algorithms",
+      "Academic Tool"
+    ]
+  },
+  {
+    "title": "Banking Engine",
+    "category": "C++",
+    "description": "Simulated banking engine covering account management, deposits, withdrawals, balance validation and fund transfers with object-oriented design.",
+    "github": "https://github.com/humerasadaf59-lab/InternGrow_Task4_BankingEngine",
+    "organization": "InternGrow.official",
+    "type": "Programming",
+    "year": "2026",
+    "tags": [
+      "C++",
+      "OOP",
+      "Transactions",
+      "Data Structures"
+    ]
+  },
+  {
+    "title": "Secure User Authentication System",
+    "category": "C++",
+    "description": "Authentication-focused programming project with login and user-verification logic, validation and secure input-handling practices.",
+    "github": "https://github.com/humerasadaf59-lab/InternGrow_Authentication_System",
+    "organization": "InternGrow.official",
+    "type": "Programming",
+    "year": "2026",
+    "tags": [
+      "C++",
+      "Authentication",
+      "Validation",
+      "Security"
+    ]
+  },
+  {
+    "title": "To-Do List App",
+    "category": "Full Stack",
+    "description": "Task-management application built with React and Node.js using REST API patterns for create, read, update and delete operations.",
+    "github": "https://github.com/humerasadaf59-lab/to-do-list-app",
+    "organization": "Full-Stack Practice",
+    "type": "Full Stack",
+    "year": "2026",
+    "tags": [
+      "React",
+      "Node.js",
+      "REST API",
+      "CRUD"
+    ]
+  }
+]

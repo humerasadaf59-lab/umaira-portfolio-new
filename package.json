@@ -1,0 +1,17 @@
+{
+  "name": "umaira-sadaf-portfolio",
+  "version": "2.0.0",
+  "description": "Production-style full-stack portfolio for Umaira Sadaf with API-driven projects, internships, certifications and live demos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}
